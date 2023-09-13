@@ -1,0 +1,447 @@
+{
+    "key": "group_63c5885e5fc2c",
+    "title": "Product additional info",
+    "fields": [
+        {
+            "key": "field_63c6edc8dcfff",
+            "label": "",
+            "name": "product_info_fields",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_63c5885edae7e",
+                    "label": "Title",
+                    "name": "title",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "15",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Nutritions Facts",
+                    "maxlength": "",
+                    "placeholder": "Enter title",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_63c6ed9d52783",
+                    "label": "SubTitle",
+                    "name": "subtitle",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "25",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Serving size: 1 oz (28 g or about 1\/4 cup)",
+                    "maxlength": "",
+                    "placeholder": "Enter subtitle",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_63c71aa5b17b4",
+                    "label": "Note",
+                    "name": "note",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "25",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "*Does not include shipping costs",
+                    "maxlength": "",
+                    "placeholder": "Enter title",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_63c73c0ae9e43",
+                    "label": "Heading",
+                    "name": "heading",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "15",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "Calories",
+                    "maxlength": "",
+                    "placeholder": "Enter text",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_63c73c64e9e44",
+                    "label": "Value",
+                    "name": "value",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "8",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 100,
+                    "maxlength": "",
+                    "placeholder": "Enter value",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_63c73d4a56fd2",
+                    "label": "Note info",
+                    "name": "note_info",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "12",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "% Daily value*",
+                    "maxlength": "",
+                    "placeholder": "Enter value",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_63c6f383ec4be",
+                    "label": "Info",
+                    "name": "info",
+                    "aria-label": "",
+                    "type": "repeater",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "block",
+                    "pagination": 0,
+                    "min": 0,
+                    "max": 0,
+                    "collapsed": "",
+                    "button_label": "Add Row",
+                    "rows_per_page": 20,
+                    "sub_fields": [
+                        {
+                            "key": "field_63c7235b25b74",
+                            "label": "Use multiple lines",
+                            "name": "use_multipl_lines",
+                            "aria-label": "",
+                            "type": "true_false",
+                            "instructions": "&nbsp;",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "15",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "",
+                            "default_value": 0,
+                            "ui_on_text": "",
+                            "ui_off_text": "",
+                            "ui": 1,
+                            "parent_repeater": "field_63c6f383ec4be"
+                        },
+                        {
+                            "key": "field_63c6f3abec4bf",
+                            "label": "Text",
+                            "name": "text",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "For highlight text use tag &lt;span class=\"bold\"&gt;text&lt;\/span&gt;",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_63c7235b25b74",
+                                        "operator": "!=",
+                                        "value": "1"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "40",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "Enter text",
+                            "prepend": "",
+                            "append": "",
+                            "parent_repeater": "field_63c6f383ec4be"
+                        },
+                        {
+                            "key": "field_63c6f3deec4c0",
+                            "label": "Value",
+                            "name": "value",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "Enter value",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_63c7235b25b74",
+                                        "operator": "!=",
+                                        "value": "1"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "15",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "Enter value",
+                            "prepend": "",
+                            "append": "",
+                            "parent_repeater": "field_63c6f383ec4be"
+                        },
+                        {
+                            "key": "field_63c6f41aec4c2",
+                            "label": "Show divider",
+                            "name": "show_divider",
+                            "aria-label": "",
+                            "type": "true_false",
+                            "instructions": "&nbsp;",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_63c7235b25b74",
+                                        "operator": "!=",
+                                        "value": "1"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "10",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "",
+                            "default_value": 0,
+                            "ui_on_text": "",
+                            "ui_off_text": "",
+                            "ui": 1,
+                            "parent_repeater": "field_63c6f383ec4be"
+                        },
+                        {
+                            "key": "field_63c739332c7cf",
+                            "label": "Light text",
+                            "name": "light_text",
+                            "aria-label": "",
+                            "type": "true_false",
+                            "instructions": "&nbsp;",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_63c7235b25b74",
+                                        "operator": "!=",
+                                        "value": "1"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "10",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "",
+                            "default_value": 0,
+                            "ui_on_text": "",
+                            "ui_off_text": "",
+                            "ui": 1,
+                            "parent_repeater": "field_63c6f383ec4be"
+                        },
+                        {
+                            "key": "field_63c739bd81dbc",
+                            "label": "Top margin",
+                            "name": "top_margin",
+                            "aria-label": "",
+                            "type": "true_false",
+                            "instructions": "&nbsp;",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_63c7235b25b74",
+                                        "operator": "!=",
+                                        "value": "1"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "10",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "",
+                            "default_value": 0,
+                            "ui_on_text": "",
+                            "ui_off_text": "",
+                            "ui": 1,
+                            "parent_repeater": "field_63c6f383ec4be"
+                        },
+                        {
+                            "key": "field_63c724fe0231a",
+                            "label": "Multipl lines",
+                            "name": "multipl_lines",
+                            "aria-label": "",
+                            "type": "repeater",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_63c7235b25b74",
+                                        "operator": "==",
+                                        "value": "1"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "85",
+                                "class": "",
+                                "id": ""
+                            },
+                            "layout": "block",
+                            "min": 1,
+                            "max": 0,
+                            "collapsed": "",
+                            "button_label": "Add Row",
+                            "rows_per_page": 20,
+                            "sub_fields": [
+                                {
+                                    "key": "field_63c724fe0231b",
+                                    "label": "Text",
+                                    "name": "text",
+                                    "aria-label": "",
+                                    "type": "text",
+                                    "instructions": "Enter text",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "70",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "maxlength": "",
+                                    "placeholder": "Enter text",
+                                    "prepend": "",
+                                    "append": "",
+                                    "parent_repeater": "field_63c724fe0231a"
+                                },
+                                {
+                                    "key": "field_63c724fe0231c",
+                                    "label": "Value",
+                                    "name": "value",
+                                    "aria-label": "",
+                                    "type": "text",
+                                    "instructions": "Enter value",
+                                    "required": 0,
+                                    "conditional_logic": 0,
+                                    "wrapper": {
+                                        "width": "30",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "maxlength": "",
+                                    "placeholder": "Enter value",
+                                    "prepend": "",
+                                    "append": "",
+                                    "parent_repeater": "field_63c724fe0231a"
+                                }
+                            ],
+                            "parent_repeater": "field_63c6f383ec4be"
+                        }
+                    ]
+                },
+                {
+                    "key": "field_63c71b6d4b3b5",
+                    "label": "Description",
+                    "name": "description",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "Enter description",
+                    "prepend": "",
+                    "append": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "product"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1674128291
+}

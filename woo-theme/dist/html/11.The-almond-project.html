@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    	<meta charset="UTF-8">
+    	<meta name="robots" content="noindex, follow">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    	<link rel="icon" type="image/x-icon" href="../images/favicon/favicon.ico">
+    	<link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-touch-icon.png">
+    	<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon/favicon-32x32.png">
+    	<link rel="icon" type="image/png" sizes="16x16" href="../images/favicon/favicon-16x16.png">
+    	<link rel="icon" type="image/png" sizes="150x150" href="../images/favicon/mstile-150x150.png">
+    	<!-- <link rel="manifest" href="/site.webmanifest"> -->
+    	<link rel="mask-icon" href="../images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    	<meta name="msapplication-TileColor" content="#da532c">
+    	<meta name="theme-color" content="#ffffff">
+
+    	<link rel='stylesheet' id='wc-blocks-vendors-style-css' href='https://treehousedev-dev.bigdropinc.net/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-vendors-style.css?ver=8.9.2' type='text/css' media='all' />
+    	<link rel='stylesheet' id='wc-blocks-style-css' href='https://treehousedev-dev.bigdropinc.net/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-style.css?ver=8.9.2' type='text/css' media='all' />
+
+    	<link rel='stylesheet' id='photoswipe-css' href='https://treehousedev-dev.bigdropinc.net/wp-content/plugins/woocommerce/assets/css/photoswipe/photoswipe.min.css?ver=7.2.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='photoswipe-default-skin-css' href='https://treehousedev-dev.bigdropinc.net/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/default-skin.min.css?ver=7.2.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='woocommerce-layout-css' href='https://treehousedev-dev.bigdropinc.net/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=7.2.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='woocommerce-smallscreen-css' href='https://treehousedev-dev.bigdropinc.net/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=7.2.2' type='text/css' media='only screen and (max-width: 768px)' />
+    <link rel='stylesheet' id='woocommerce-general-css' href='https://treehousedev-dev.bigdropinc.net/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=7.2.2' type='text/css' media='all' />
+    <style id='woocommerce-inline-inline-css' type='text/css'>
+    	.woocommerce form .form-row .required { visibility: visible; }
+    	</style>
+
+    	<link rel="stylesheet" href="../css/style.css"/>
+    	<title>The Almond Project - Treehouse</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="header ">
+                <div class="header-holder">
+                    <div class="header-top">
+                        <div class="container">
+                            <div class="header-logo-row">
+                                <!-- logo -->
+                                <span class="logo">
+                                	<a href="#">
+                                	
+
+                                	
+                                		<img src="../images/logo-white.svg" alt="image description">
+                                	
+                                </a>
+                                </span>
+                                <!-- logo end -->
+                                <button class="btn-menu">&nbsp;</button>
+                            </div>
+            
+                            <ul class="header-add-links">
+                                <li>
+                                    <a href="#">
+                                        <span class="icon contact-icon">
+                                            <svg width="19" class="phone-icon" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M8.20028 5.32061L5.4516 2.14799C5.13473 1.78239 4.5538 1.78401 4.18574 2.15286L1.92537 4.41717C1.25263 5.09069 1.06006 6.09082 1.44925 6.8927C3.7743 11.7065 7.65675 15.5941 12.4675 17.9258C13.2686 18.315 14.268 18.1224 14.9407 17.4489L17.2222 15.1635C17.5919 14.7938 17.5927 14.2096 17.2239 13.8928L14.0389 11.1589C13.7057 10.8729 13.1882 10.9103 12.8543 11.245L11.746 12.3548C11.6893 12.4143 11.6146 12.4535 11.5334 12.4664C11.4523 12.4793 11.3691 12.4652 11.2967 12.4263C9.48519 11.3832 7.98252 9.87865 6.94172 8.06588C6.90274 7.99337 6.88863 7.91008 6.90154 7.82878C6.91446 7.74747 6.95369 7.67265 7.01322 7.61579L8.11821 6.51004C8.45296 6.17368 8.48952 5.65372 8.20028 5.3198V5.32061Z" stroke="white" stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </span>
+                                        <span>Contact Us</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="icon">
+                                            <svg class="lock-icon" width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M3.83333 7.5V3.75C3.83333 3.15326 4.05283 2.58097 4.44353 2.15901C4.83423 1.73705 5.36413 1.5 5.91667 1.5H10.0833C10.6359 1.5 11.1658 1.73705 11.5565 2.15901C11.9472 2.58097 12.1667 3.15326 12.1667 3.75V4.5M3.13889 7.5H12.8611C13.6282 7.5 14.25 8.17157 14.25 9V15C14.25 15.8284 13.6282 16.5 12.8611 16.5H3.13889C2.37183 16.5 1.75 15.8284 1.75 15V9C1.75 8.17157 2.37183 7.5 3.13889 7.5Z" stroke="white" stroke-width="1.875" stroke-linecap="square"/>
+                                            </svg>
+                                        </span>
+                                        <span>Client Portal</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="icon">
+                                            <svg class="account-icon" width="12" height="14" viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M8.86223 8.2H9.06373C9.48224 8.20012 9.8863 8.36042 10.2 8.65077C10.5137 8.94112 10.7154 9.34154 10.7673 9.7768L10.9912 11.6512C11.0113 11.8201 10.9969 11.9915 10.949 12.1541C10.9011 12.3167 10.8208 12.4667 10.7133 12.5943C10.6058 12.7218 10.4737 12.824 10.3257 12.8939C10.1777 12.9639 10.0172 13 9.85486 13H2.14514C1.98279 13 1.82228 12.9639 1.67427 12.8939C1.52627 12.824 1.39415 12.7218 1.28669 12.5943C1.17922 12.4667 1.09887 12.3167 1.05097 12.1541C1.00307 11.9915 0.988704 11.8201 1.00884 11.6512L1.23209 9.7768C1.28401 9.34133 1.48592 8.94075 1.79986 8.65037C2.1138 8.35999 2.51814 8.19983 2.93684 8.2H3.13777M8.86223 4C8.86223 5.65685 7.58077 7 6 7C4.41923 7 3.13777 5.65685 3.13777 4C3.13777 2.34315 4.41923 1 6 1C7.58077 1 8.86223 2.34315 8.86223 4Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                </svg>
+                                        </span>
+                                        <span>Account</span>
+                                    </a>
+                                </li>
+                                <li class="cart-link-item">
+                                    <a class="cart-link" href="#" data-modal-open="cart">
+                                        <span class="icon no-empty">
+                                            <svg class="cart-icon" width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M3.71422 4.77778H16.1906C16.4434 4.77779 16.6934 4.83309 16.9245 4.94013C17.1555 5.04717 17.3626 5.20357 17.5322 5.39924C17.7018 5.59491 17.8303 5.82551 17.9093 6.07618C17.9883 6.32685 18.0162 6.59202 17.991 6.85461L17.4482 12.5213C17.4035 12.9874 17.1946 13.4195 16.8619 13.7338C16.5292 14.0481 16.0965 14.2222 15.6477 14.2222H7.00748C6.58901 14.2224 6.18342 14.0712 5.85976 13.7943C5.53611 13.5174 5.31439 13.1319 5.23237 12.7036L3.71422 4.77778ZM3.71422 4.77778L2.98138 1.71494C2.93237 1.51071 2.81939 1.32943 2.66039 1.1999C2.50138 1.07036 2.30548 1.00001 2.10378 1H1M6.42844 18H8.23792M13.6664 18H15.4758" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                            <span>&nbsp;</span>
+                                        </span>
+                                        <span>cart</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="icon">
+                                            <svg class="search-icon" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M16.5 16.5L12.9584 12.9521M14.9211 8.21053C14.9211 9.99027 14.2141 11.6971 12.9556 12.9556C11.6971 14.2141 9.99027 14.9211 8.21053 14.9211C6.43078 14.9211 4.72394 14.2141 3.46547 12.9556C2.207 11.6971 1.5 9.99027 1.5 8.21053C1.5 6.43078 2.207 4.72394 3.46547 3.46547C4.72394 2.207 6.43078 1.5 8.21053 1.5C9.99027 1.5 11.6971 2.207 12.9556 3.46547C14.2141 4.72394 14.9211 6.43078 14.9211 8.21053Z" stroke="white" stroke-width="1.875" stroke-linecap="square"/>
+                                            </svg>
+                                        </span>
+                                        <span>Search</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="header-bottom animation">
+                        <div class="container">
+                            <button class="back"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.25 1.5L1 7M1 7L6.25 12.5M1 7H13" stroke="#151B20" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>Back</button>
+                            <nav class="header-nav">
+                                <ul>
+                                    <li class="header-nav-has-child">
+                                        <a class="header-nav-link-view" href="#">Products</a>
+                                        <div class="header-drop-menu">
+                                            <div class="container">
+                                                <div class="sub-menu">
+                                                    <div class="drop-text-col">
+                                                        <strong class="h3">Products</strong>
+                                                        <p>As California's most prestigious grower owned almond supplier - with a reputation built around quality, service, and reliability - Treehouse Almonds has been setting the standard for premium value-added almond ingredients for over 30 years.</p>
+                                                        <div class="buttons">
+                                                            <div class="button-inner"><a href="#" class="btn small"><span>Browse Almond Products</span></a></div>
+                                                        </div>
+                                                    </div>
+                                        
+                                                    <div class="drop-nav-col">
+                                                        <span class="header-nav-link-view">Almond Products</span>
+                                                        <ul class="header-nav-second-list">
+                                                            <li><a class="header-nav-link-view" href="#">Flour</a></li>
+                                                            <li><a class="header-nav-link-view" href="#">Almond butter</a></li>
+                                                            <li><a class="header-nav-link-view" href="#">Sliced</a></li>
+                                                            <li><a class="header-nav-link-view" href="#">Slivered</a></li>
+                                                            <li><a class="header-nav-link-view" href="#">Diced</a></li>
+                                                        </ul>
+                                                        <a href="#" class="link">View All Products</a>
+                                                    </div>
+                                                    <div class="drop-nav-col">
+                                                        <ul>
+                                                            <li><a class="header-nav-link-view" href="#">Collaboration</a></li>
+                                                            <li><a class="header-nav-link-view" href="#">Technical Kit (PDF file)</a></li>
+                                                            <li><a class="header-nav-link-view" href="#">FAQ (For Wholesale)</a></li>
+                                                            <li><a class="header-nav-link-view" href="#">Request a Quote</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header-nav-has-child">
+                                        <a class="header-nav-link-view" href="#">Food Safety/Facilities</a>
+                                        <div class="header-drop-menu">
+                                            <div class="container">
+                                                <div class="sub-menu">
+                                                    <div class="drop-text-col">
+                                                        <strong class="h3">Food Safety/ Facilities</strong>
+                                                        <p>We are continually evolving to ensure almonds are produced in a safe, responsible manner throughout the food supply chain, so consumers around the world can have the highest level of confidence in our product.</p>
+                                                        <div class="buttons">
+                                                            <div class="button-inner"><a href="#" class="btn small"><span>Browse Almond Products</span></a></div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="drop-nav-col">
+                                                        <ul>
+                                                            <li><a class="header-nav-link-view" href="#">Quality</a></li>
+                                                            <li><a class="header-nav-link-view" href="#">Food Safety</a></li>
+                                                            <li><a class="header-nav-link-view" href="#">Technology </a></li>
+                                                            <li><a class="header-nav-link-view" href="#">Request a Quote</a></li>
+                                                        </ul>
+                                                    </div>
+
+                                                    <div class="news-card">
+                                                        <figure class="news-card-picture">
+                                                            <img src="../images/news/news-card-img-02.jpg" alt="image description">
+                                                        </figure>
+                                                        <div class="news-card-text">
+                                                            <strong class="h5">2021 Subjective Crop Estimate</strong>
+                                                            <p>The NASS SUBJECTIVE FORECAST was released today putting the 2021 crop at 3,200 Million lbs (3.2 Billion) on...</p>
+                                                        </div>
+                                                        <a class="news-card-link" href="#">&nbsp;</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header-nav-has-child">
+                                        <a class="header-nav-link-view" href="#">Sustainability </a>
+                                        <div class="header-drop-menu">
+                                            <div class="container">
+                                                <div class="sub-menu">
+                                                    <div class="drop-text-col">
+                                                        <strong class="h3">Sustainability</strong>
+                                                        <p>
+                                                            As California's most prestigious grower owned almond supplier - with a reputation built around 
+                                                            quality, service, and reliability - Treehouse Almonds has been setting the standard for premium 
+                                                            value-added almond ingredients for over 30 years.
+                                                        </p>
+                                                        <div class="buttons">
+                                                            <div class="button-inner"><a href="#" class="btn small"><span>Browse Almond Products</span></a></div>
+                                                        </div>
+                                                    </div>
+                                        
+                                                    <div class="drop-nav-col">
+                                                        <span class="header-nav-link-view">Almond Products</span>
+                                                        <ul class="header-nav-second-list">
+                                                            <li><a class="header-nav-link-view" href="#">Flour</a></li>
+                                                            <li><a class="header-nav-link-view" href="#">Almond butter</a></li>
+                                                            <li><a class="header-nav-link-view" href="#">Sliced</a></li>
+                                                            <li><a class="header-nav-link-view" href="#">Slivered</a></li>
+                                                            <li><a class="header-nav-link-view" href="#">Diced</a></li>
+                                                        </ul>
+                                                        <a href="#" class="link">View All Products</a>
+                                                    </div>
+                                                    <div class="drop-nav-col">
+                                                        <ul>
+                                                            <li><a class="header-nav-link-view" href="#">Collaboration</a></li>
+                                                            <li><a class="header-nav-link-view" href="#">Technical Kit (PDF file)</a></li>
+                                                            <li><a class="header-nav-link-view" href="#">FAQ (For Wholesale)</a></li>
+                                                            <li><a class="header-nav-link-view" href="#">Request a Quote</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li class="header-nav-has-child">
+                                        <a class="header-nav-link-view" href="#">News & Insights</a>
+                                        <div class="header-drop-menu">
+                                            <div class="container">
+                                                <div class="sub-menu">
+                                                    <div class="drop-text-col">
+                                                        <strong class="h3">News & Insights</strong>
+                                                        <p>
+                                                            We are continually evolving to ensure almonds are produced in a safe, 
+                                                            responsible manner throughout the food supply chain, so consumers around the world 
+                                                            can have the highest level of confidence in our product.
+                                                        </p>
+                                                        <div class="buttons">
+                                                            <div class="button-inner"><a href="#" class="btn small"><span>Browse Almond Products</span></a></div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="drop-nav-col">
+                                                        <ul>
+                                                            <li><a class="header-nav-link-view" href="#">Quality</a></li>
+                                                            <li><a class="header-nav-link-view" href="#">Food Safety</a></li>
+                                                            <li><a class="header-nav-link-view" href="#">Technology </a></li>
+                                                            <li><a class="header-nav-link-view" href="#">Request a Quote</a></li>
+                                                        </ul>
+                                                    </div>
+
+                                                    <div class="news-card">
+                                                        <figure class="news-card-picture">
+                                                            <img src="../images/news/news-card-img-02.jpg" alt="image description">
+                                                        </figure>
+                                                        <div class="news-card-text">
+                                                            <strong class="h5">2021 Subjective Crop Estimate</strong>
+                                                            <p>
+                                                                The NASS SUBJECTIVE FORECAST was released today putting the 2021 
+                                                                crop at 3,200 Million lbs (3.2 Billion) on...
+                                                            </p>
+                                                        </div>
+                                                        <a class="news-card-link" href="#">&nbsp;</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li><a class="header-nav-link-view" href="#">About</a></li>
+                                    <li class="header-nav-has-child">
+                                        <a class="header-nav-link-view" href="#">Shop Almonds</a>
+                                        <div class="header-drop-menu">
+                                            <div class="container">
+                                                <div class="sub-menu">
+                                                    <div class="drop-text-col">
+                                                        <strong class="h3">Online Shop</strong>
+                                                        <p>Treehouse loves to provide almonds and almond ingredients to its valued customers in the U.S. and Canada. Almonds for sale in this store are available only in quantities smaller than 1,500 pounds.</p>
+                                                        <div class="buttons">
+                                                            <div class="button-inner"><a href="#" class="btn small"><span>Almonds for Sale</span></a></div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="drop-nav-col">
+                                                        <span class="header-nav-link-view">
+                                                            <a class="header-nav-link-view" href="#">All Products</a>
+                                                        </span>
+                                                        <ul class="header-nav-second-list">
+                                                            <li><a class="header-nav-link-view" href="#">Almond Flour</a></li>
+                                                            <li><a class="header-nav-link-view" href="#">Almond Butter</a></li>
+                                                            <li><a class="header-nav-link-view" href="#">Sliced Almonds</a></li>
+                                                            <li><a class="header-nav-link-view" href="#">Diced Almonds</a></li>
+                                                            <li><a class="header-nav-link-view" href="#">Slivered Almonds</a></li>
+                                                            <li><a class="header-nav-link-view" href="#">Whole Almonds</a></li>
+                                                            <li><a class="header-nav-link-view" href="#">Organic Almonds</a></li>
+                                                        </ul>
+                                                        <!-- <a href="#" class="link">View All Products</a> -->
+                                                    </div>
+                                                    <div class="drop-nav-col">
+                                                        <ul>
+                                                            <li><a class="header-nav-link-view" href="#">Shipping & Returns</a></li>
+                                                            <li><a class="header-nav-link-view" href="#">Online Shop FAQs</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header-nav-has-child">
+                                        <a class="header-nav-link-view" href="#">Grow With Us</a>
+                                        <div class="header-drop-menu has-news">
+                                            <div class="container">
+                                                <div class="sub-menu">
+                                                    <div class="drop-text-col">
+                                                        <strong class="h3">Grow With Us</strong>
+                                                        <p>
+                                                            We believe in transparency and honest communication. And our work style is still team-based, 
+                                                            working together to innovate, process, and distribute the largest portion of California’s almonds 
+                                                            to the world.
+                                                        </p>
+                                                        <div class="buttons">
+                                                            <div class="button-inner"><a href="#" class="btn small"><span>Learn more</span></a></div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="news-card">
+                                                        <figure class="news-card-picture">
+                                                            <img src="../images/news/news-card-img-02.jpg" alt="image description">
+                                                        </figure>
+                                                        <div class="news-card-text">
+                                                            <strong class="h5">Vestibulum sed sit sed aliquet donec</strong>
+                                                            <p>
+                                                                Vestibulum sed sit sed aliquet donec amet lorem. Integer nibh purus, sagittis egestas sed. 
+                                                            </p>
+                                                        </div>
+                                                        <a class="news-card-link" href="#">&nbsp;</a>
+                                                    </div>
+
+                                                    <div class="news-card">
+                                                        <figure class="news-card-picture">
+                                                            <img src="../images/news/news-card-img-02.jpg" alt="image description">
+                                                        </figure>
+                                                        <div class="news-card-text">
+                                                            <strong class="h5">Vestibulum sed sit sed aliquet donec</strong>
+                                                            <p>
+                                                                Vestibulum sed sit sed aliquet donec amet lorem. Integer nibh purus, sagittis egestas sed. 
+                                                            </p>
+                                                        </div>
+                                                        <a class="news-card-link" href="#">&nbsp;</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <main class="main">
+                <section class="hero-section">
+                    
+                    
+                        <div class="hero-section-outer">
+                            
+                                
+                                
+                                    <div class="hero-section-bg has-dark-overlay">
+                                        <picture>
+                                            <source media="(min-width:768px)" srcset="../images/hero-slide-bg-03.jpg">
+                                            <img src="../images/hero-slide-bg-03.jpg" alt="">
+                                        </picture>
+                                    </div>
+                                
+                            
+                            <div class="container">
+                                <div class="hero-section-inner">
+                                    <div class="hero-info">
+                                        
+                                            
+                                                <h1>The Almond Project</h1>
+                                            
+                                            
+                                        
+                                        
+                                            <p>Treehouse California Almonds and one of its third-generation almond growers are proud partners in The Almond Project, a multi-year initiative aimed at advancing more sustainable almond farming methods.</p>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+
+                </section>
+                <section class="three-img-section indent-top reverse ">
+                    <div class="container">
+                        <div class="two-sides-row  one-picture">
+                            
+                            <div class="left-side">
+                                <div class="section-info">
+                                    <h2>Our Mission</h2>
+
+                                    
+                                        
+                                            <p class="sub-text">The Almond Project’s mission is to preserve natural resources, enable ecosystem regeneration, protect farming communities, and ensure that there will be nutritionally rich California almonds for generations to come.</p>
+                                        
+                                            <p class="sub-text">This sustainable farming initiative is able to pursue such goals thanks to the contributions of a vibrant coalition of farmers, scientists, brands, technical service providers, processors, and customers.</p>
+                                        
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                
+                            </div>
+                            <div class="right-side">
+                                
+                                
+                                    <img src="../images/three-img-section-16.jpg" alt="">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="three-img-section indent-top has-statistics">
+                    <div class="container">
+                        <div class="two-sides-row  one-picture">
+                            
+                            <div class="left-side">
+                                <div class="section-info">
+                                    <h2>Soil Health Practices</h2>
+
+                                    
+                                        
+                                            <p class="sub-text">Project partners are implementing and testing a range of regenerative soil health practices on almond farms in California. They are measuring and comparing outcomes across soil and ecosystem health factors such as water holding capacity and infiltration, carbon sequestration, and ecosystem biodiversity. Key soil health practices include:</p>
+                                        
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                
+                            </div>
+                            <div class="right-side">
+                                
+                                    
+                                        <div class="health-methods">
+                                            <div class="health-method">
+                                                <div class="health-method-img-holder">
+                                                    <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M18 26.7742V7.03226M13.6129 13.0645L18 17.4516L22.3871 13.0645M13.6129 20.7419L18 25.129L22.3871 20.7419M35 35C35 31.9729 32.5432 29.5161 29.5161 29.5161C27.7174 29.5161 26.0284 30.399 25.0084 31.8852C23.78 29.1158 21.0326 27.3281 18 27.3226M18 27.3226C14.9674 27.3226 12.22 29.1158 10.9916 31.8852C9.97161 30.4045 8.28806 29.5161 6.48387 29.5161M18 27.3226C21.6852 27.3226 24.7671 29.9219 25.5074 33.3877M6.48387 29.5161C3.45677 29.5161 1 31.9729 1 35M6.48387 29.5161C8.93516 29.5161 11.0135 31.1284 11.7155 33.3494M29.5161 28.9677C29.4997 26.0448 30.5855 24.7671 31.5177 23.2645M6.48387 28.9677C6.50032 26.0448 5.41452 24.7671 4.48226 23.2645M18 9.22581C12.5161 8.67742 18 1 18 1C18 1 23.4839 8.67742 18 9.22581ZM15.2855 14.7371C11.019 18.2248 9.4671 8.91871 9.4671 8.91871C9.4671 8.91871 18.7732 10.4706 15.2855 14.7371ZM15.2855 22.4145C11.019 25.9023 9.4671 16.5961 9.4671 16.5961C9.4671 16.5961 18.7732 18.1481 15.2855 22.4145ZM20.7145 14.7371C24.981 18.2248 26.5329 8.91871 26.5329 8.91871C26.5329 8.91871 17.2268 10.4706 20.7145 14.7371ZM20.7145 22.4145C24.981 25.9023 26.5329 16.5961 26.5329 16.5961C26.5329 16.5961 17.2268 18.1481 20.7145 22.4145ZM30.0645 25.3319C25.9461 21.6687 34.8903 18.669 34.8903 18.669C34.8903 18.669 34.83 28.1013 30.0645 25.3319ZM5.93548 25.3319C10.0539 21.6687 1.10968 18.669 1.10968 18.669C1.10968 18.669 1.17 28.1013 5.93548 25.3319Z" stroke="white" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    </svg>
+                                                </div>
+                                                <p>Multi-Species Cover Crops</p>
+                                            </div>
+                                            <div class="health-method">
+                                                <div class="health-method-img-holder">
+                                                    <svg width="42" height="37" viewBox="0 0 42 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M20.8888 36C21.9517 33.0762 27.6246 30.3445 27.6246 30.3445L34.1478 31.5513C36.0428 31.7854 36.9903 31.1971 36.9903 31.1971C38.4116 30.1404 40.5495 26.8324 40.5495 26.8324C43.0337 22.2696 34.4333 14.0746 34.4333 14.0746C34.4333 14.0746 35.0406 7.81278 27.8554 4.43872C27.8554 4.43872 23.9135 -0.394235 19.6376 3.58019M34.0324 27.2226L38.6485 28.8616M18.5261 1.1427C18.5261 1.1427 14.1408 -0.0640334 13.1994 4.54078C13.1994 4.54078 9.99242 3.37006 7.65402 5.14115C4.82365 7.27845 5.50998 9.86003 5.50998 9.86003C5.50998 9.86003 0.165074 10.2383 1.11258 15.8337M11.6384 10.8807C10.8853 12.2315 10.3508 13.9966 10.1929 15.9598C9.82843 20.4385 11.5473 24.2208 14.0315 24.4189C16.5157 24.617 18.8176 21.1469 19.182 16.6682C19.34 14.693 19.097 12.8499 18.5564 11.397M28.5539 15.8757C28.5539 15.8757 27.248 14.4588 25.5048 15.1132" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    </svg>
+                                                </div>
+                                                <p>Animal Integration in Cropping Systems</p>
+                                            </div>
+                                            <div class="health-method">
+                                                <div class="health-method-img-holder">
+                                                    <svg width="37" height="39" viewBox="0 0 37 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M22.5617 23.7588L30.3395 10.0257M28.0955 8.70417L20.3177 22.4373M24.3377 28.5543L25.2825 26.8863L22.4753 25.2345M19.1078 23.2522L16.3006 21.6004L13.4516 26.6308M29.2175 9.36491C31.0741 10.4573 33.4578 9.80687 34.5294 7.91421L35.8257 5.62511C36.1844 4.99373 35.9712 4.18469 35.3519 3.82055L30.8609 1.17758C30.2416 0.811972 29.4479 1.02928 29.0907 1.66066L27.7944 3.94976C26.7228 5.84242 27.3609 8.27248 29.2175 9.36491ZM32.9321 5.44744L32.284 6.59126C31.9268 7.22264 31.1317 7.43995 30.5138 7.07434C29.8944 6.7102 29.6813 5.89969 30.0399 5.26978L30.6881 4.12596L32.9335 5.44744H32.9321ZM18.8471 27.6763C19.7776 28.224 20.9658 27.8995 21.5031 26.9509L23.1235 24.0892L19.756 22.107L18.1356 24.9687C17.5984 25.9172 17.9167 27.1286 18.8471 27.6763ZM34.6562 34.7917C27.0455 35.1162 28.0753 31.1342 24.643 31.1811C23.6938 31.1944 22.7951 31.56 21.9885 32.068C16.256 35.6801 12.5601 25.0656 5.60617 28.2577C2.74568 29.5704 1 32.5834 1 35.7814V36.5243C1 37.4097 1.58045 38 2.2963 38H34.7037C35.4195 38 36 37.4083 36 36.6785V36.1103C36 35.3629 35.3893 34.7594 34.6562 34.7903V34.7917Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    </svg>
+                                                </div>
+                                                <p>Increased Compost Application</p>
+                                            </div>
+                                            <div class="health-method">
+                                                <div class="health-method-img-holder">
+                                                    <svg width="28" height="44" viewBox="0 0 28 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M9.69003 27.5652C8.49688 27.5652 7.59375 25.8925 7.59375 23.6625C7.59375 21.6164 9.23304 20.0052 9.30532 19.9383V19.9379C9.52156 19.729 9.8642 19.729 10.0804 19.9379C10.1473 20.0048 11.7866 21.6106 11.7866 23.6621C11.7866 25.8925 10.8832 27.5652 9.68995 27.5652L9.69003 27.5652ZM9.69003 21.1979C9.11055 21.8992 8.76714 22.7656 8.7088 23.6733C8.7088 25.3963 9.34428 26.4611 9.69003 26.4611C10.0358 26.4611 10.6713 25.4071 10.6713 23.6733H10.6717C10.6153 22.7652 10.2719 21.898 9.69003 21.1979Z" fill="white"/>
+                                                        <path d="M10.594 31.4574C10.2015 31.4745 9.81964 31.3318 9.53452 31.0615C8.69253 30.214 9.23894 28.3962 10.8059 26.8297C12.2555 25.3802 14.5528 25.4024 14.6476 25.4024H14.6472C14.795 25.4024 14.937 25.4611 15.0416 25.5657C15.1462 25.6703 15.2049 25.8123 15.2049 25.9601C15.2049 26.055 15.2049 28.3518 13.7721 29.8018C12.6847 30.8608 11.5083 31.4574 10.5939 31.4574L10.594 31.4574ZM14.0397 26.5566H14.0393C13.1246 26.6391 12.2596 27.0101 11.5697 27.6161C10.3543 28.8314 10.0587 30.0246 10.3041 30.27C10.4045 30.3704 10.7113 30.3925 11.1738 30.2198C11.8454 29.9414 12.4529 29.5276 12.9577 29.0041C13.5714 28.3254 13.9506 27.4674 14.0393 26.5567L14.0397 26.5566Z" fill="white"/>
+                                                        <path d="M8.78181 31.4634C8.44384 31.4552 8.11015 31.3895 7.79474 31.2681C6.97258 30.934 6.22972 30.4304 5.61483 29.7906C4.15953 28.3411 4.18203 26.0438 4.18203 25.9489H4.18164C4.18164 25.6413 4.43132 25.3916 4.73935 25.3916C4.83969 25.3916 7.1366 25.3916 8.58652 26.8189C9.22784 27.4392 9.73109 28.1875 10.064 29.0155C10.3818 29.8796 10.3036 30.6046 9.85207 31.0616C9.56583 31.3373 9.17847 31.4824 8.78178 31.4633L8.78181 31.4634ZM5.34184 26.5568H5.34145C5.42584 27.4646 5.79687 28.3218 6.40089 29.0043C6.90415 29.5274 7.50931 29.9412 8.17937 30.22C8.64762 30.3927 8.95448 30.3705 9.05482 30.2702C9.15515 30.1699 9.17733 29.863 9.00465 29.4006V29.4002C8.72424 28.7297 8.31082 28.1226 7.78929 27.6162C7.10791 27.0165 6.25583 26.6459 5.35271 26.5568L5.34184 26.5568Z" fill="white"/>
+                                                        <path d="M18.8174 43.422H0.557706C0.249681 43.422 0 43.1727 0 42.8647V25.3468C0 25.0387 0.249681 24.7891 0.557706 24.7891C0.865731 24.7891 1.11541 25.0387 1.11541 25.3468V42.3072H18.26V25.3468C18.26 25.0387 18.5097 24.7891 18.8173 24.7891C19.1253 24.7891 19.375 25.0387 19.375 25.3468V42.8647C19.375 43.0125 19.3163 43.1545 19.2117 43.2587C19.1071 43.3633 18.9655 43.422 18.8173 43.422L18.8174 43.422Z" fill="white"/>
+                                                        <path d="M18.8173 25.9041C18.5582 25.9127 18.3272 25.7419 18.2599 25.4915L14.9145 13.2254H4.44949L1.10401 25.4915C1.02234 25.7886 0.715485 25.9632 0.418352 25.8816C0.121219 25.8003 -0.0537899 25.493 0.0278809 25.1959L3.48458 12.5057C3.55186 12.2553 3.78326 12.0845 4.04228 12.0931H15.3545C15.6135 12.0845 15.8446 12.2553 15.9118 12.5057L19.3743 25.1959C19.4136 25.3386 19.3945 25.4911 19.3214 25.6198C19.2483 25.7482 19.127 25.8427 18.9838 25.8816C18.9302 25.8991 18.8734 25.9068 18.8166 25.9041L18.8173 25.9041Z" fill="white"/>
+                                                        <path d="M16.4256 13.2089H2.9499C2.64187 13.2089 2.39258 12.9592 2.39258 12.6512V10.0587C2.39258 9.75066 2.64187 9.50098 2.9499 9.50098H16.4256C16.5734 9.50098 16.7154 9.5597 16.82 9.66432C16.9246 9.76894 16.9833 9.91089 16.9833 10.0587V12.6512C16.9833 12.799 16.9246 12.9409 16.82 13.0455C16.7154 13.1501 16.5734 13.2089 16.4256 13.2089V13.2089ZM3.50745 12.0939L15.8691 12.0935V10.616H3.50844L3.50745 12.0939Z" fill="white"/>
+                                                        <path d="M12.1265 10.6155H7.2706C6.96257 10.6155 6.71289 10.3662 6.71289 10.0581V5.94892C6.71289 5.6409 6.96257 5.3916 7.2706 5.3916H12.1265C12.2743 5.3916 12.4163 5.45033 12.5209 5.55456C12.6255 5.65917 12.6842 5.80113 12.6842 5.94891V10.0581C12.6842 10.2059 12.6255 10.3479 12.5209 10.4521C12.4163 10.5567 12.2743 10.6154 12.1265 10.6154V10.6155ZM7.85005 9.50047H11.5692V6.50664H7.82784L7.85005 9.50047Z" fill="white"/>
+                                                        <path d="M20.489 6.507H0.768785C0.592998 6.51245 0.425374 6.43505 0.315697 6.29776C0.206019 6.16087 0.167131 5.98002 0.211077 5.81007L1.57149 0.423959C1.6345 0.16922 1.86668 -0.00734367 2.1292 0.000432133H23.9014C24.1091 -0.00773504 24.304 0.100383 24.407 0.280839C24.5101 0.461295 24.5042 0.684145 24.3919 0.858766L20.9796 6.24488H20.98C20.8746 6.41328 20.6879 6.51323 20.4891 6.507H20.489ZM1.48762 5.39201H20.1764L22.886 1.11552H2.56339L1.48762 5.39201Z" fill="white"/>
+                                                        <path d="M24.9495 5.36404H21.214C20.9059 5.36404 20.6562 5.11436 20.6562 4.80633C20.6562 4.49831 20.9059 4.24901 21.214 4.24901H24.3918V2.92753H22.7751C22.4671 2.92753 22.2174 2.67784 22.2174 2.36982C22.2174 2.06219 22.4671 1.8125 22.7751 1.8125H24.9495C25.0973 1.8125 25.2393 1.87123 25.3439 1.97584C25.4485 2.08046 25.5072 2.22203 25.5072 2.36981V4.80639C25.5072 4.95418 25.4485 5.09614 25.3439 5.20075C25.2393 5.30537 25.0973 5.36409 24.9495 5.36409V5.36404Z" fill="white"/>
+                                                        <path d="M27.0403 17.5633C26.9314 17.5641 26.8249 17.533 26.7339 17.4742C22.354 14.5609 18.669 10.7196 15.9394 6.22273C15.7854 5.95322 15.8791 5.60981 16.1486 5.45579C16.4177 5.30217 16.7611 5.39551 16.9152 5.66503C18.9142 8.93465 21.4273 11.8605 24.3582 14.3292C22.5688 11.8985 20.0988 8.52505 18.5377 6.26698C18.3619 6.01302 18.4257 5.66494 18.6797 5.48916C18.9336 5.31376 19.2821 5.37754 19.4575 5.6315C22.1169 9.48405 27.4302 16.5983 27.4863 16.6709C27.6473 16.8872 27.631 17.1874 27.4474 17.3846C27.342 17.4982 27.1946 17.5627 27.0402 17.5631L27.0403 17.5633Z" fill="white"/>
+                                                    </svg>
+                                                </div>
+                                                <p>Input Reduction for Ecosystem Health</p>
+                                            </div>
+                                        </div>
+                                    
+                                    
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="three-img-section reverse indent-top indent-bottom ">
+                    <div class="container">
+                        <div class="two-sides-row  one-picture">
+                            
+                            <div class="left-side">
+                                <div class="section-info">
+                                    <h2>Why Are We Doing This?</h2>
+
+                                    
+                                        
+                                            <p class="sub-text">The climate crisis poses a dire threat to almonds and the farmers whose livelihoods depend on them. We believe that healthy soil is key to the longevity of almond farming. </p>
+                                        
+                                    
+
+                                    
+                                        
+                                            <p>However, practical research has been hard to come by. The Almond Project partners are contributing to our base of knowledge about how to sustain and improve soil health.</p>
+                                        
+                                            <p>In the long term, the Project seeks to provide farmers and food companies with compelling proof points about the benefits of adopting practices that may help to regenerate California’s working lands.</p>
+                                        
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                
+                            </div>
+                            <div class="right-side">
+                                
+                                
+                                    <img src="../images/three-img-section-17.jpg" alt="">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="our-partners">
+                    <div class="container">
+                        <div class="section-info">
+                            <h3>Our Partners</h3>
+                            <p>The Almond Project brings together a broad range of almond industry participants, 
+                                all of whom are advocates for a more resilient and healthy food system and 
+                                environment and the resiliency of California agriculture.</p>
+                        </div>
+                        <ul class="partners-list">
+                            <li>
+                                <a href="#"></a>
+                                <div class="partners-img-holder">
+                                    <img src="../images/our-partners/logo-1.svg" alt="partner logo">
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#"></a>
+                                <div class="partners-img-holder">
+                                    <img src="../images/our-partners/logo-2.png" alt="partner logo">
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#"></a>
+                                <div class="partners-img-holder">
+                                    <img src="../images/our-partners/logo-3.png" alt="partner logo">
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#"></a>
+                                <div class="partners-img-holder">
+                                    <img src="../images/our-partners/logo-4.svg" alt="partner logo">
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#"></a>
+                                <div class="partners-img-holder">
+                                    <img src="../images/our-partners/logo-5.png" alt="partner logo">
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#"></a>
+                                <div class="partners-img-holder">
+                                    <img src="../images/our-partners/logo-6.svg" alt="partner logo">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="collaboration-section large-padding">
+                    <div class="collaboration-bg">
+                            <!-- <video class="video-bg" muted autoplay loop>
+                                <source src="../../video/example-video.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video> -->
+                        <img src="../images/join-the-project.jpg" alt="">
+                    </div>
+                    <div class="container">
+                        <div class="collaboration-section-inner">
+                            <div class="section-info">
+                                <h2>Join the Project</h2>
+                                <p>
+                                    The Almond Project invites new partners to contribute to our body 
+                                    of research, which aims to support scalable sustainability practices 
+                                    in commercial agriculture in California.
+                                </p>
+                                <div class="buttons-holder">
+                                    <!-- button -->
+                                    
+                                    
+
+                                    	
+
+                                    	
+                                    		<a class="btn small" href="#">
+                                    			<span>Join The Project</span>
+                                    		</a>
+                                    	
+                                    
+
+
+                                    <!-- button end -->
+                                    <!-- button -->
+                                    
+                                    
+
+                                    	
+
+                                    	
+                                    		<a class="btn has-border small" href="#">
+                                    			<span>Learn More</span>
+                                    		</a>
+                                    	
+                                    
+
+
+                                    <!-- button end -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="almond-industry indent-top indent-bottom">
+                    <div class="container">
+                        <div class="section-info">
+                            <h2>Almond Industry Innovation</h2>
+                            <p>Fames euismod quam sit enim quis sit nunc scelerisque. Mauris pretium sed nunc,
+                                fermentum mi porttitor. Vulputate egestas neque ullamcorper.</p>
+                        </div>
+                        <div class="news-holder">
+                            <!-- news-card -->
+                            <article class="news-card full">
+                            	<div class="news-card-picture">
+                            		<img src="../images/news/almont-industry-img-01.jpg" alt="image description">
+
+                            		
+                            			<button class="video-play-btn">
+                            				<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            					<path fill-rule="evenodd" clip-rule="evenodd" d="M40 80C62.0914 80 80 62.0914 80 40C80 17.9086 62.0914 0 40 0C17.9086 
+                            					0 0 17.9086 0 40C0 62.0914 17.9086 80 40 80ZM44.7342 31.6001L30 23.3333V56.6667L44.7342 48.2668L59.3333 
+                            					40L44.7342 31.6001Z" fill="white"/>
+                            				</svg>
+                            			</button>
+
+                            			<!-- <video muted>
+                            				<source src="../../video/example-video.mp4" type="video/mp4">
+                            				Your browser does not support the video tag.
+                            			</video> -->
+                            		
+                            	</div>
+                            	<div class="news-card-text">
+                            		
+                            		
+                            			<h4>Recharge Basins Treehouse Growers Have</h4>
+                            		
+                            		
+                            		
+                            			<p>Turpis platea tellus sed maecenas euismod amet sed eget. Tincidunt sollicitudin quam in eu adipiscing velit tristique sit vestibulum. Odio turpis elementum fermentum sit dignissim platea. In nunc sit fermentum pharetra pellentesque tincidunt egestas. Non dictumst felis, amet egestas et. Felis nunc urna consectetur maecenas eu metus at.</p>
+                            		
+                            	</div>
+                            	<a class="news-card-link" href="#">&nbsp;</a>
+                            </article>
+                            <!-- news-card end -->
+                            <!-- news-card -->
+                            <article class="news-card ">
+                            	<div class="news-card-picture">
+                            		<img src="../images/news/almont-industry-img-02.jpg" alt="image description">
+
+                            		
+                            	</div>
+                            	<div class="news-card-text">
+                            		
+                            		
+                            			<h4>Commits to Bee-Friendly Hedge Rows by 2026</h4>
+                            		
+                            		
+                            		
+                            			<p>Integer arcu laoreet id nunc, nulla velit, cursus dolor nullam. Enim ornare ipsum tortor vulputate integer pellentesque in ultrices curabitur. Rutrum nulla quis et scelerisque. Fermentum non hendrerit blandit molestie nunc lacus, aliquam.</p>
+                            		
+                            	</div>
+                            	<a class="news-card-link" href="#">&nbsp;</a>
+                            </article>
+                            <!-- news-card end -->
+                            <!-- news-card -->
+                            <article class="news-card ">
+                            	<div class="news-card-picture">
+                            		<img src="../images/news/almont-industry-img-03.jpg" alt="image description">
+
+                            		
+                            	</div>
+                            	<div class="news-card-text">
+                            		
+                            		
+                            			<h4>Сoca Сola Water Project</h4>
+                            		
+                            		
+                            		
+                            			<p>Nunc cursus in pharetra in sed vitae amet eget. Lectus molestie risus, ut pellentesque hac sagittis. Rhoncus rhoncus vel vitae mi, malesuada nullam posuere. Libero dolor, ultrices vitae vulputate ultricies auctor egestas vitae etiam.</p>
+                            		
+                            	</div>
+                            	<a class="news-card-link" href="#">&nbsp;</a>
+                            </article>
+                            <!-- news-card end -->
+                        </div>
+                    </div>
+                </section>
+                <section class="get-in-touch ">
+                    
+                    <div class="container">
+                        <div class="section-info">
+                            
+                            
+                                <h3>Get in Touch</h3>
+                                <p>We know you have questions. Please take a moment to contact us. We love to talk about ourselves.</p>
+                                <div class="buttons-holder centered">
+                                    <!-- button -->
+                                    
+                                    
+
+                                    	
+
+                                    	
+                                    		<a class="btn small" href="#">
+                                    			<span>contact us</span>
+                                    		</a>
+                                    	
+                                    
+
+
+                                    <!-- button end -->
+                                </div>
+                            
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+            <footer class="footer">
+                <div class="footer-top">
+                    <div class="container">
+                        <nav class="footer-nav">
+                            <ul class="footer-nav-list">
+                                <li>
+                                    <h6 class="footer-nav-link footer-nav-button">
+                                        <a href="#">Products</a>
+                                    </h6>
+                                    <div class="footer-nav-inner two-col">
+                                        <ul>
+                                            <li><a href="#">Inshell</a></li>
+                                            <li><a href="#">Slivered</a></li>
+                                            <li><a href="#">Whole</a></li>
+                                            <li><a href="#">Flour</a></li>
+                                            <li><a href="#">Sliced</a></li>
+                                            <li><a href="#">Almond Butter</a></li>
+                                            <li><a href="#">Diced</a></li>
+                                            <li><a href="#">Organic</a></li>    
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h6 class="footer-nav-link footer-nav-button">
+                                        <a href="#">Food Safety/Facilities</a>
+                                    </h6>
+                                    <div class="footer-nav-inner">
+                                        <ul>
+                                            <li><a href="#">Quality</a></li>
+                                            <li><a href="#">Food Safety</a></li>
+                                            <li><a href="#">Technology</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h6 class="footer-nav-link footer-nav-button">
+                                        <a href="#">Sustainability</a>
+                                    </h6>
+                                    <div class="footer-nav-inner">
+                                        <ul>
+                                            <li><a href="#">Orchard Stewardship</a></li>
+                                            <li><a href="#">Facilities</a></li>
+                                            <li><a href="#">Organic</a></li>
+                                            <li><a href="#">Case Studies</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <ul>
+                                        <li>
+                                            <h6 class="footer-nav-link">
+                                                <a href="#">About</a>
+                                            </h6>
+                                        </li>
+                                        <li>
+                                            <h6 class="footer-nav-link">
+                                                <a href="#">News & Insights</a>
+                                            </h6>
+                                        </li>
+                                        <li>
+                                            <h6 class="footer-nav-link">
+                                                <a href="#">Shop For Retailers</a>
+                                            </h6>
+                                        </li>
+                                        <li>
+                                            <h6 class="footer-nav-link">
+                                                <a href="#">Shop For Retailers</a>
+                                            </h6>
+                                        </li>
+                                        <li>
+                                            <h6 class="footer-nav-link">
+                                                <a href="#">Grow With Us</a>
+                                            </h6>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="footer-contact">
+                            <h6 class="footer-nav-link">
+                                <a href="#">Contact Us</a>
+                            </h6>
+                            <ul>
+                                <li>
+                                    <a href="mailto:sales@treehousealmonds.com">sales@treehousealmonds.com</a>
+                                </li>
+                                <li><a href="tel:1-559-757-5020">1-559-757-5020</a></li>
+                                <li>
+                                    <address>Treehouse California Almonds, LLC <br>6914 Road 160 <br>Earlimart, CA 93219</address>
+                                </li>
+                            </ul> 
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="container">
+                        <div class="footer-bottom-top">
+                            <div class="footer-logo">
+                                <!-- logo -->
+                                <span class="logo">
+                                	<a href="#">
+                                	
+                                		<img src="../images/logo.svg" alt="image description">
+                                	
+
+                                	
+                                </a>
+                                </span>
+                                <!-- logo end -->
+                            </div>
+                            <!-- form-subscribe -->
+                            <form action="#" class="form-subscribe ">
+                            	<label for="subscribe-email" class="h5">Join Our Newsletter</label>
+                            	<div class="form-subscribe-holder">
+                            		<div class="wpcf7-form-control-wrap">
+                            			<input id="subscribe-email" type="email" name="email" placeholder="Your Email"/>
+                            			<!-- <span class="wpcf7-not-valid-tip">Please fill out this field.</span> -->
+                            		</div>
+                            		<button class="btn btn-arrow has-border" type="submit">
+                            			<span>
+                            				<svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            					<path d="M0 6H12M12 6L6.75 1M12 6L6.75 11" stroke="white" stroke-width="1.5"/>
+                            				</svg>
+                            			</span>
+                            		</button>
+                            	</div>
+                            </form>
+                            <!-- form-subscribe end -->
+                            <div class="footer-follow">
+                                <h5 class="h5">Follow Us</h5>
+                                <ul class="social-list">
+                                    <li>
+                                        <a class="social-btn" aria-label="social button linkedin" target="_blank" href="#">
+                                            <svg  width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M11.5187 5.5C10.0993 5.5 9.12813 6.12736 8.6957 6.85626L8.625 6.98583V5.625H5.91667V15.2083H8.83333V10.5662C8.83333 9.01042 9.40625 8.02083 10.7833 8.02083C11.7331 8.02083 12.1316 8.86067 12.1644 10.358L12.1667 10.5662V15.2083H15.0833V9.91542C15.0833 7.0575 14.3996 5.5 11.5187 5.5ZM3.83333 5.5H0.916667V15.0833H3.83333V5.5ZM2.375 0.5C1.33958 0.5 0.5 1.33958 0.5 2.375C0.5 3.41042 1.33958 4.25 2.375 4.25C3.41042 4.25 4.25 3.41042 4.25 2.375C4.25 1.33958 3.41042 0.5 2.375 0.5Z"/>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer-bottom-bottom">
+                            <nav class="footer-add-nav">
+                                <ul>
+                                    <li><a href="#">Terms and Conditions</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                </ul>
+                            </nav>
+                            <div class="copyright">
+                                <p>© Treehouse California Almonds, LLC | All Rights Reserved.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyBmqAKQbjpja1DzfaO67vNC1lN1cN5hHzY&ver=20200325&callback=Function.prototype"></script>
+
+        <script src="../js/global.js"></script>
+
+        <script type='text/javascript' src='https://treehousedev-dev.bigdropinc.net/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.7.2.2' id='jquery-blockui-js'></script>
+        <script type='text/javascript' id='wc-add-to-cart-js-extra'>
+        /* <![CDATA[ */
+        var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/treehousedev-dev.bigdropinc.net\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+        /* ]]> */
+        </script>
+
+        <script type='text/javascript' src='https://treehousedev-dev.bigdropinc.net/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=7.2.2' id='wc-add-to-cart-js'></script>
+        <script type='text/javascript' src='https://treehousedev-dev.bigdropinc.net/wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min.js?ver=1.7.21-wc.7.2.2' id='zoom-js'></script>
+        <script type='text/javascript' src='https://treehousedev-dev.bigdropinc.net/wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.min.js?ver=2.7.2-wc.7.2.2' id='flexslider-js'></script>
+        <script type='text/javascript' src='https://treehousedev-dev.bigdropinc.net/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js?ver=4.1.1-wc.7.2.2' id='photoswipe-js'></script>
+        <script type='text/javascript' src='https://treehousedev-dev.bigdropinc.net/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js?ver=4.1.1-wc.7.2.2' id='photoswipe-ui-default-js'></script>
+        <script type='text/javascript' id='wc-single-product-js-extra'>
+        /* <![CDATA[ */
+        var wc_single_product_params = {"i18n_required_rating_text":"Please select a rating","review_rating_required":"yes","flexslider":{"rtl":false,"animation":"slide","smoothHeight":true,"directionNav":false,"controlNav":"thumbnails","slideshow":false,"animationSpeed":500,"animationLoop":false,"allowOneSlide":false},"zoom_enabled":"1","zoom_options":[],"photoswipe_enabled":"1","photoswipe_options":{"shareEl":false,"closeOnScroll":false,"history":false,"hideAnimationDuration":0,"showAnimationDuration":0},"flexslider_enabled":"1"};
+        /* ]]> */
+        </script>
+        <script type='text/javascript' src='https://treehousedev-dev.bigdropinc.net/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js?ver=7.2.2' id='wc-single-product-js'></script>
+        <script type='text/javascript' src='https://treehousedev-dev.bigdropinc.net/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.7.2.2' id='js-cookie-js'></script>
+        <script type='text/javascript' id='woocommerce-js-extra'>
+        /* <![CDATA[ */
+        var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+        /* ]]> */
+        </script>
+        <script type='text/javascript' src='https://treehousedev-dev.bigdropinc.net/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=7.2.2' id='woocommerce-js'></script>
+        <script type='text/javascript' id='wc-cart-fragments-js-extra'>
+        /* <![CDATA[ */
+        var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_8cb7d6a74e0308a62796a910f8f9122c","fragment_name":"wc_fragments_8cb7d6a74e0308a62796a910f8f9122c","request_timeout":"5000"};
+        /* ]]> */
+        </script>
+        <script type='text/javascript' src='https://treehousedev-dev.bigdropinc.net/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=7.2.2' id='wc-cart-fragments-js'></script>
+    </body>
+</html>

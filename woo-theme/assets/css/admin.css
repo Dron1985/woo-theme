@@ -1,0 +1,23 @@
+.block-editor-block-types-list__list-item .eye,
+.block-editor-block-inspector .eye,
+.block-editor-block-toolbar .block-default,
+.block-editor-inserter__preview-container .eye,
+.eye.none,
+.eye-close.none {
+    display: none;
+}
+
+.block-preview {
+    width: 750px;
+    height: 650px;
+    position: absolute;
+    top: 45px;
+    left: -12px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.block-editor-block-toolbar .components-toolbar-group button.components-button {
+    pointer-events: unset !important;
+    cursor: pointer !important;
+}

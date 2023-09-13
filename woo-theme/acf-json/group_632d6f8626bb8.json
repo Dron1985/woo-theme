@@ -1,0 +1,139 @@
+{
+    "key": "group_632d6f8626bb8",
+    "title": "Indents (global block part)",
+    "fields": [
+        {
+            "key": "field_632d6f86558e5",
+            "label": "Block settings",
+            "name": "",
+            "aria-label": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_632d6fe1558e6",
+            "label": "Indent top",
+            "name": "indent_top",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "none": "None",
+                "indent-top-medium": "Medium",
+                "indent-top": "Default"
+            },
+            "default_value": "none",
+            "return_format": "value",
+            "allow_null": 0,
+            "other_choice": 0,
+            "layout": "vertical",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_632d70de558e7",
+            "label": "Indent Bottom",
+            "name": "indent_bottom",
+            "aria-label": "",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "none": "None",
+                "indent-bottom-medium": "Medium",
+                "indent-bottom": "Default"
+            },
+            "default_value": "none",
+            "return_format": "value",
+            "allow_null": 0,
+            "other_choice": 0,
+            "layout": "vertical",
+            "save_other_choice": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "all"
+            },
+            {
+                "param": "block",
+                "operator": "!=",
+                "value": "acf\/specification-sheet-tabs"
+            },
+            {
+                "param": "block",
+                "operator": "!=",
+                "value": "acf\/section-logos"
+            },
+            {
+                "param": "block",
+                "operator": "!=",
+                "value": "acf\/section-more-items"
+            },
+            {
+                "param": "block",
+                "operator": "!=",
+                "value": "acf\/section-get-in-touch"
+            },
+            {
+                "param": "block",
+                "operator": "!=",
+                "value": "acf\/bulleted-list-section"
+            },
+            {
+                "param": "block",
+                "operator": "!=",
+                "value": "acf\/section-article-slider"
+            },
+            {
+                "param": "block",
+                "operator": "!=",
+                "value": "acf\/shelf-life"
+            },
+            {
+                "param": "block",
+                "operator": "!=",
+                "value": "acf\/review-section"
+            },
+            {
+                "param": "block",
+                "operator": "!=",
+                "value": "acf\/section-upcoming-reports"
+            }
+        ]
+    ],
+    "menu_order": 999,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1680208818
+}
